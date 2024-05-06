@@ -57,6 +57,24 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\afreira.jpg" />
+	  <None Remove="Resources\Images\ajornada.jpg" />
+	  <None Remove="Resources\Images\anabelle.jpg" />
+	  <None Remove="Resources\Images\asbranquelas.jpeg" />
+	  <None Remove="Resources\Images\barbie.jpg" />
+	  <None Remove="Resources\Images\bonecodomal.jpg" />
+	  <None Remove="Resources\Images\inafntil1.jpg" />
+	  <None Remove="Resources\Images\infantil2.jpg" />
+	  <None Remove="Resources\Images\life.jpg" />
+	  <None Remove="Resources\Images\matrix.jpg" />
+	  <None Remove="Resources\Images\minhamae.jpg" />
+	  <None Remove="Resources\Images\skyline.jpg" />
+	  <None Remove="Resources\Images\sorria.jpg" />
+	  <None Remove="Resources\Images\thor.jpg" />
+	  <None Remove="Resources\Images\vovozona.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
