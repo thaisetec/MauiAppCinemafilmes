@@ -47,7 +47,6 @@
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
-		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
@@ -57,27 +56,243 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\afreira.jpg" />
-	  <None Remove="Resources\Images\ajornada.jpg" />
-	  <None Remove="Resources\Images\anabelle.jpg" />
-	  <None Remove="Resources\Images\asbranquelas.jpeg" />
-	  <None Remove="Resources\Images\barbie.jpg" />
-	  <None Remove="Resources\Images\bonecodomal.jpg" />
-	  <None Remove="Resources\Images\inafntil1.jpg" />
+	  <None Remove="Resources\Images\anim1.jpeg" />
+	  <None Remove="Resources\Images\anim2.jpg" />
+	  <None Remove="Resources\Images\anim3.jpg" />
+	  <None Remove="Resources\Images\anim4.jpg" />
+	  <None Remove="Resources\Images\aventura1.jpg" />
+	  <None Remove="Resources\Images\aventura2.jpg" />
+	  <None Remove="Resources\Images\aventura3.jpg" />
+	  <None Remove="Resources\Images\aventura4.jpg" />
+	  <None Remove="Resources\Images\comedia1.jpeg" />
+	  <None Remove="Resources\Images\comedia2.jpg" />
+	  <None Remove="Resources\Images\comedia3.jpg" />
+	  <None Remove="Resources\Images\comedia4.jpg" />
+	  <None Remove="Resources\Images\doc1.jpg" />
+	  <None Remove="Resources\Images\doc2.jpg" />
+	  <None Remove="Resources\Images\doc3.jpg" />
+	  <None Remove="Resources\Images\doc4.jpg" />
+	  <None Remove="Resources\Images\drama1.jpg" />
+	  <None Remove="Resources\Images\drama2.jpg" />
+	  <None Remove="Resources\Images\drama3.jpg" />
+	  <None Remove="Resources\Images\drama4.jpg" />
+	  <None Remove="Resources\Images\fic1.jpg" />
+	  <None Remove="Resources\Images\fic2.jpg" />
+	  <None Remove="Resources\Images\fic3.jpg" />
+	  <None Remove="Resources\Images\fic4.jpg" />
+	  <None Remove="Resources\Images\guerra1.jpg" />
+	  <None Remove="Resources\Images\guerra2.jpg" />
+	  <None Remove="Resources\Images\guerra3.jpg" />
+	  <None Remove="Resources\Images\guerra4.jpg" />
+	  <None Remove="Resources\Images\infantil1.jpg" />
 	  <None Remove="Resources\Images\infantil2.jpg" />
-	  <None Remove="Resources\Images\life.jpg" />
-	  <None Remove="Resources\Images\matrix.jpg" />
-	  <None Remove="Resources\Images\minhamae.jpg" />
-	  <None Remove="Resources\Images\skyline.jpg" />
-	  <None Remove="Resources\Images\sorria.jpg" />
-	  <None Remove="Resources\Images\thor.jpg" />
-	  <None Remove="Resources\Images\vovozona.jpg" />
+	  <None Remove="Resources\Images\infantil3.jpg" />
+	  <None Remove="Resources\Images\infantil4.jpg" />
+	  <None Remove="Resources\Images\nacional1.jpg" />
+	  <None Remove="Resources\Images\nacional2.jpg" />
+	  <None Remove="Resources\Images\nacional3.jpg" />
+	  <None Remove="Resources\Images\nacional4.jpg" />
+	  <None Remove="Resources\Images\rom1.jpg" />
+	  <None Remove="Resources\Images\rom2.jpg" />
+	  <None Remove="Resources\Images\rom3.jpg" />
+	  <None Remove="Resources\Images\rom4.jpg" />
+	  <None Remove="Resources\Images\susp1.jpg" />
+	  <None Remove="Resources\Images\susp2.jpg" />
+	  <None Remove="Resources\Images\susp3.jpg" />
+	  <None Remove="Resources\Images\susp4.jpg" />
+	  <None Remove="Resources\Images\terror1.jpg" />
+	  <None Remove="Resources\Images\terror2.jpg" />
+	  <None Remove="Resources\Images\terror3.jpg" />
+	  <None Remove="Resources\Images\terror4.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="categoria\animação.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categoria\aventura.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categoria\comédia.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categoria\documentário.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categoria\drama.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categoria\ficção científica.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categoria\guerra.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categoria\infantil.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categoria\nacional.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categoria\romance.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categoria\suspense.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categoria\terror.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\anim1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\anim2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\anim3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\anim4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\aventura1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\aventura2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\aventura3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\aventura4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\comedia1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\comedia2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\comedia3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\comedia4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\doc1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\doc2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\doc3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\doc4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\drama1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\drama2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\drama3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\drama4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\fic1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\fic2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\fic3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\fic4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\guerra1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\guerra2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\guerra3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\guerra4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\infantil1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\infantil2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\infantil3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\infantil4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\nacional1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\nacional2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\nacional3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\nacional4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\rom1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\rom2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\rom3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\rom4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\sisp4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\susp1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\susp2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\susp3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\terror1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\terror2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\terror3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="filmes\terror4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
