@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppCinemafilmes.categoria.suspense"
-             Title="suspense">
+             x:Class="MauiAppCinemafilmes.categoria.Suspense"
+             Title="Suspense">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <ScrollView>
+            <Grid RowDefinitions="300, 300, 300"
+   ColumnDefinitions="*,*"
+   Padding="5">
+
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
+              Source="susp1.jpg" x:Name="btnsusp1" Clicked="btnsusp1_Clicked"/>
+
+                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0"
+              Source="susp2.jpg" x:Name="btnsusp2"
+             Clicked="btnsusp2_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1"
+              Source="susp3.jpg" x:Name="btnsusp3"
+              Clicked="btnsusp3_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="1"
+              Source="susp4.jpg" x:Name="btnsusp4"
+            Clicked="btnsusp4_Clicked"/>
+            </Grid>
+        </ScrollView>
     </VerticalStackLayout>
 </ContentPage>

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppCinemafilmes.categoria.Terror"
-             Title="Terror">
+             x:Class="MauiAppCinemafilmes.categoria.Documentario"
+             Title="Documentario">
     <VerticalStackLayout>
         <ScrollView>
             <Grid RowDefinitions="300, 300, 300"
-   ColumnDefinitions="*,*"
-   Padding="5">
+          ColumnDefinitions="*,*"
+          Padding="5">
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
-              Source="terror1.jpg" x:Name="btnterror1" Clicked="btnterror1_Clicked"/>
-
+                     Source="doc1.jpg" x:Name="btndoc1"
+                     Clicked="btndoc1_Clicked"/>
                 <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0"
-              Source="terror2.jpg" x:Name="btnterror2"
-             Clicked="btnterror2_Clicked"/>
+                     Source="doc2.jpg" x:Name="btndoc2"
+                     Clicked="btndoc2_Clicked"/>
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1"
-              Source="terror3.jpg" x:Name="btnterror3"
-              Clicked="btnterror3_Clicked"/>
+                     Source="doc3.jpg" x:Name="btndoc3"
+                     Clicked="btndoc3_Clicked"/>
                 <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="1"
-              Source="terror4.jpg" x:Name="btnterror4"
-             Clicked="btnterror4_Clicked"/>
+                     Source="doc4.jpg" x:Name="btndoc4"
+                     Clicked="btndoc4_Clicked"/>
             </Grid>
         </ScrollView>
     </VerticalStackLayout>

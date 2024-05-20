@@ -113,40 +113,79 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="categoria\animação.xaml">
+	  <Compile Update="categoria\Animacao.xaml.cs">
+	    <DependentUpon>Animacao.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="categoria\aventura.xaml.cs">
+	    <DependentUpon>Aventura.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="categoria\Comedia.xaml.cs">
+	    <DependentUpon>Comedia.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="categoria\Documentario.xaml.cs">
+	    <DependentUpon>Documentario.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="categoria\drama.xaml.cs">
+	    <DependentUpon>Drama.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="categoria\Ficcao_cientifica.xaml.cs">
+	    <DependentUpon>Ficcao_cientifica.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="categoria\guerra.xaml.cs">
+	    <DependentUpon>Guerra.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="categoria\infantil.xaml.cs">
+	    <DependentUpon>Infantil.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="categoria\nacional.xaml.cs">
+	    <DependentUpon>Nacional.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="categoria\romance.xaml.cs">
+	    <DependentUpon>Romance.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="categoria\suspense.xaml.cs">
+	    <DependentUpon>Suspense.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="categoria\terror.xaml.cs">
+	    <DependentUpon>Terror.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="categoria\Animacao.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="categoria\aventura.xaml">
+	  <MauiXaml Update="categoria\Aventura.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="categoria\comédia.xaml">
+	  <MauiXaml Update="categoria\Comedia.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="categoria\documentário.xaml">
+	  <MauiXaml Update="categoria\Documentario.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="categoria\drama.xaml">
+	  <MauiXaml Update="categoria\Drama.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="categoria\ficção científica.xaml">
+	  <MauiXaml Update="categoria\Ficcao_cientifica.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="categoria\guerra.xaml">
+	  <MauiXaml Update="categoria\Guerra.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="categoria\infantil.xaml">
+	  <MauiXaml Update="categoria\Infantil.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="categoria\nacional.xaml">
+	  <MauiXaml Update="categoria\Nacional.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="categoria\romance.xaml">
+	  <MauiXaml Update="categoria\Romance.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="categoria\suspense.xaml">
+	  <MauiXaml Update="categoria\Suspense.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="categoria\terror.xaml">
+	  <MauiXaml Update="categoria\Terror.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="filmes\anim1.xaml">

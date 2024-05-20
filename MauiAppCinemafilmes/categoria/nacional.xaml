@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppCinemafilmes.categoria.nacional"
-             Title="nacional">
+             x:Class="MauiAppCinemafilmes.categoria.Nacional"
+             Title="Nacional">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <ScrollView>
+            <Grid RowDefinitions="300, 300, 300"
+   ColumnDefinitions="*,*"
+   Padding="5">
+
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
+              Source="nacional1.jpg" x:Name="btnnac1" Clicked="btnnac1_Clicked_1"/>
+
+                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0"
+              Source="nacional2.jpg" x:Name="btnnac2"
+             Clicked="btnnac2_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1"
+              Source="nacional3.jpg" x:Name="btnnac3"
+              Clicked="btnnac3_Clicked"/>
+                    <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="1"
+              Source="nacional4.jpg" x:Name="btnnac4"
+            Clicked="btnnac4_Clicked"/>
+            </Grid>
+        </ScrollView>
     </VerticalStackLayout>
 </ContentPage>

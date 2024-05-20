@@ -1,9 +1,29 @@
 namespace MauiAppCinemafilmes.categoria;
 
-public partial class aventura : ContentPage
+public partial class Aventura : ContentPage
 {
-	public aventura()
+	public Aventura()
 	{
 		InitializeComponent();
 	}
+
+    private void btnavent1_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnavent2_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnavent3_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnavent4_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }
