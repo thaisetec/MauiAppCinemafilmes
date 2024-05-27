@@ -9,41 +9,56 @@ public partial class Animacao : ContentPage
 
     private void btnanim1_Clicked(object sender, EventArgs e)
     {
+        try
+        {
+            Navigation.PushAsync(new filmes.anim1());
 
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("ops", ex.Message, "OK");
+        }
     }
 
     private void btnanim2_Clicked(object sender, EventArgs e)
     {
+        try
+        {
+            Navigation.PushAsync(new filmes.anim2());
+
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("ops", ex.Message, "OK");
+        }
 
     }
 
     private void btnanim3_Clicked(object sender, EventArgs e)
     {
+        try
+        {
+            Navigation.PushAsync(new filmes.anim3());
+
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("ops", ex.Message, "OK");
+        }
 
     }
 
-    private void btnanim1_Clicked_1(object sender, EventArgs e)
+private void btnanim4_Clicked(object sender, EventArgs e)
     {
+        try
+        {
+            Navigation.PushAsync(new filmes.anim4());
 
-    }
-
-    private void btnanim1_Clicked_2(object sender, EventArgs e)
-    {
-
-    }
-
-    private void btnanim1_Clicked_3(object sender, EventArgs e)
-    {
-
-    }
-
-    private void btnanim1_Clicked_4(object sender, EventArgs e)
-    {
-
-    }
-
-    private void btnanim4_Clicked(object sender, EventArgs e)
-    {
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("ops", ex.Message, "OK");
+        }
 
     }
 }

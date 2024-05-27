@@ -10,7 +10,7 @@
    Padding="5">
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
-              Source="nacional1.jpg" x:Name="btnnac1" Clicked="btnnac1_Clicked_1"/>
+              Source="nacional1.jpg" x:Name="btnnac1" Clicked="btnnac1_Clicked"/>
 
                 <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0"
               Source="nacional2.jpg" x:Name="btnnac2"
